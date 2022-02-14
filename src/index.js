@@ -10,6 +10,7 @@ const navbar = (
       <li>Contact</li>
       <li>test</li>
       <li>test2</li>
+      <li>test3</li>
     </ul>
   </nav>
 );
