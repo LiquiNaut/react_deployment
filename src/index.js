@@ -1,5 +1,6 @@
 // import React from "react"; not necesery cause Raact's 17 new JSX transform
 import ReactDOM from "react-dom";
+import "./index.css";
 
 function Header() {
   return (
