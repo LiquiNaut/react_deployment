@@ -4,8 +4,13 @@ import ReactDOM from "react-dom";
 function Header() {
   return (
     <header>
-      <nav>
-        <img src="./logo512.png" alt="" width={40} />
+      <nav className="nav">
+        <img src="./logo512.png" alt="react-logo" className="nav-logo" />
+        <ul className="nav-items">
+          <li>Pricing</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
       </nav>
     </header>
   );
