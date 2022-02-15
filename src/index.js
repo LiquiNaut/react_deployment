@@ -4,7 +4,11 @@ import ReactDOM from "react-dom";
 function TemporaryPage() {
   return (
     <div>
-      <img src="./logo512.png" alt="" width={40} />
+      <header>
+        <nav>
+          <img src="./logo512.png" alt="" width={40} />
+        </nav>
+      </header>
       <h1>Fun facts about React</h1>
       <ul>
         <li>Was first released in 2013</li>
@@ -13,6 +17,9 @@ function TemporaryPage() {
         <li>It is maintained by Facebook</li>
         <li>Powers thousands of enterprise apps, including mobile apps</li>
       </ul>
+      <footer>
+        <small>© 2022 Gasparovic development. All rights reserved.</small>
+      </footer>
     </div>
   );
 }
