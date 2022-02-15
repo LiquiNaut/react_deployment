@@ -1,7 +1,7 @@
 // import React from "react"; not necesery cause Raact's 17 new JSX transform
 import ReactDOM from "react-dom";
 
-const page = (
+function TemporaryPage() {
   <div>
     <img src="./logo512.png" alt="" width={40} />
     <h1>Fun facts about React</h1>
@@ -12,6 +12,6 @@ const page = (
       <li>It is maintained by Facebook</li>
       <li>Powers thousands of enterprise apps, including mobile apps</li>
     </ul>
-  </div>
-);
-ReactDOM.render(page, document.getElementById("root"));
+  </div>;
+}
+ReactDOM.render(<TemporaryPage />, document.getElementById("root"));
